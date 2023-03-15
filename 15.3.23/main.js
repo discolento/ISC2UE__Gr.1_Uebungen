@@ -70,7 +70,7 @@ function showAllCats(){
 function showAge(allCat){
     let maxAgeValue =-Number.MAX_VALUE;
     let minAgeValue = Number.MAX_VALUE;
-    allCat.foreach(cat =>{
+    allCat.forEach(cat =>{
         if(cat.age > maxAgeValue){
             maxAgeValue = cat.age;
         }
