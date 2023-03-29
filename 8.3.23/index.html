@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Erste Übung</title>
+    <title>Hallo Welt</title>
+
 </head>
 <body>
 <script>
     console.log('meine erste ausgabe');
 
     const myFirstConst = 'Hi, I am a string';
+
 
     let myFirstVariable = 'Mixture of a string and' + 15;
 
@@ -19,6 +21,10 @@
 
     let myArray = [1,2,3];
     console.log(myArray);
+
+    for (const number of myArray) {
+        console.log(number)
+    }
 
     function quadrat(x) {
         let result = x * x;
