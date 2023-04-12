@@ -78,6 +78,7 @@ function showAge(allCat){
             minAgeValue = cat.age;
         }
     });
+
     document.querySelector('#outputAge').innerHTML =
         `<p>jüngste Katze: ${minAgeValue}</p>
         <p>älteste Katze: ${maxAgeValue}</p>`;
